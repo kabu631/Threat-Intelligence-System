@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:38:16.569130",
+    "server": "dns-server-nepal",
+    "source_ip": "103.69.127.41",
+    "attack_type": "credential_stuffing",
+    "severity": "medium",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

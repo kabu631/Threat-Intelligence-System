@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:46:55.546242",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.28.84.87",
+    "attack_type": "sql_injection",
+    "severity": "medium",
+    "details": {
+      "method": "RDP",
+      "attempts": 22,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 114
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:25:08.609824",
+    "server": "auth-server-birgunj",
+    "source_ip": "202.63.244.234",
+    "attack_type": "xss",
+    "severity": "critical",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

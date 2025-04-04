@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:00:21.172269",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "110.44.126.98",
+    "attack_type": "sql_injection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

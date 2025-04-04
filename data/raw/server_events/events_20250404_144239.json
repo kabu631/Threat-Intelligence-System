@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:42:39.238665",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.94.8",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

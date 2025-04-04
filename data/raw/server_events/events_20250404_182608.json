@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:26:08.629953",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.69.125.7",
+    "attack_type": "ddos",
+    "severity": "medium",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

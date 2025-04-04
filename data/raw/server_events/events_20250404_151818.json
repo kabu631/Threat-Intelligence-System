@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:18:18.611609",
+    "server": "web-server-ktm",
+    "source_ip": "103.28.86.175",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

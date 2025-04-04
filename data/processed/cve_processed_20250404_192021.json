@@ -1,0 +1,322 @@
+[
+  {
+    "id": "CVE-2024-8067",
+    "published": "2025-03-28T19:20:24.087767",
+    "lastModified": "2025-04-01T19:20:24.087824",
+    "description": "A denial of service vulnerability in Example Software allows attackers to cause the service to become unavailable to legitimate users. This affects versions prior to 5.4.",
+    "cvss_v3_score": 4.7,
+    "cvss_v2_score": 4.591406672462913,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2024-8067",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8067"
+    ],
+    "weak_spots": [
+      "CWE-204"
+    ]
+  },
+  {
+    "id": "CVE-2021-9802",
+    "published": "2025-03-30T19:20:24.088031",
+    "lastModified": "2025-04-04T19:20:24.088043",
+    "description": "A buffer overflow vulnerability in Example Software allows attackers to crash the application or execute arbitrary code. This affects versions prior to 5.4.",
+    "cvss_v3_score": 8.4,
+    "cvss_v2_score": 8.154944060150653,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2021-9802",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-9802"
+    ],
+    "weak_spots": [
+      "CWE-216"
+    ]
+  },
+  {
+    "id": "CVE-2021-3585",
+    "published": "2025-03-31T19:20:24.088074",
+    "lastModified": "2025-04-02T19:20:24.088080",
+    "description": "A cross-site scripting (xss) vulnerability in Example Software allows attackers to execute arbitrary JavaScript in users' browsers and potentially steal session cookies. This affects versions prior to 5.1.",
+    "cvss_v3_score": 5.7,
+    "cvss_v2_score": 4.827853949848925,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2021-3585",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3585"
+    ],
+    "weak_spots": [
+      "CWE-214"
+    ]
+  },
+  {
+    "id": "CVE-2022-1424",
+    "published": "2025-04-02T19:20:24.088105",
+    "lastModified": "2025-04-02T19:20:24.088111",
+    "description": "A remote code execution vulnerability in Example Software allows attackers to execute arbitrary code on the affected system. This affects versions prior to 5.2.",
+    "cvss_v3_score": 9.2,
+    "cvss_v2_score": 8.480142327453073,
+    "severity": "CRITICAL",
+    "references": [
+      "https://example.com/advisories/cve-2022-1424",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1424"
+    ],
+    "weak_spots": [
+      "CWE-20"
+    ]
+  },
+  {
+    "id": "CVE-2024-3211",
+    "published": "2025-04-02T19:20:24.088134",
+    "lastModified": "2025-04-02T19:20:24.088139",
+    "description": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.8.",
+    "cvss_v3_score": 7.3,
+    "cvss_v2_score": 6.342659421255198,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2024-3211",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3211"
+    ],
+    "weak_spots": [
+      "CWE-67"
+    ]
+  },
+  {
+    "id": "CVE-2025-3789",
+    "published": "2025-03-31T19:20:24.088171",
+    "lastModified": "2025-04-01T19:20:24.088177",
+    "description": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.2.",
+    "cvss_v3_score": 7.8,
+    "cvss_v2_score": 7.502024742489592,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2025-3789",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3789"
+    ],
+    "weak_spots": [
+      "CWE-28"
+    ]
+  },
+  {
+    "id": "CVE-2021-7548",
+    "published": "2025-04-03T19:20:24.088239",
+    "lastModified": "2025-04-01T19:20:24.088248",
+    "description": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.0.",
+    "cvss_v3_score": 8.7,
+    "cvss_v2_score": 7.7833954353204,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2021-7548",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-7548"
+    ],
+    "weak_spots": [
+      "CWE-140"
+    ]
+  },
+  {
+    "id": "CVE-2025-3533",
+    "published": "2025-04-02T19:20:24.088273",
+    "lastModified": "2025-04-04T19:20:24.088278",
+    "description": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.9.",
+    "cvss_v3_score": 8.8,
+    "cvss_v2_score": 8.001518437165698,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2025-3533",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3533"
+    ],
+    "weak_spots": [
+      "CWE-267"
+    ]
+  },
+  {
+    "id": "CVE-2025-3231",
+    "published": "2025-03-29T19:20:24.088304",
+    "lastModified": "2025-04-02T19:20:24.088310",
+    "description": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.1.",
+    "cvss_v3_score": 8.2,
+    "cvss_v2_score": 7.914906555239757,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2025-3231",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3231"
+    ],
+    "weak_spots": [
+      "CWE-300"
+    ]
+  },
+  {
+    "id": "CVE-2021-4735",
+    "published": "2025-04-01T19:20:24.088333",
+    "lastModified": "2025-04-01T19:20:24.088338",
+    "description": "A denial of service vulnerability in Example Software allows attackers to cause the service to become unavailable to legitimate users. This affects versions prior to 5.7.",
+    "cvss_v3_score": 6.0,
+    "cvss_v2_score": 5.45462757246745,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2021-4735",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4735"
+    ],
+    "weak_spots": [
+      "CWE-96"
+    ]
+  },
+  {
+    "id": "CVE-2020-6689",
+    "published": "2025-04-01T19:20:24.088358",
+    "lastModified": "2025-04-02T19:20:24.088363",
+    "description": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.9.",
+    "cvss_v3_score": 7.9,
+    "cvss_v2_score": 7.176475243551594,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2020-6689",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6689"
+    ],
+    "weak_spots": [
+      "CWE-264"
+    ]
+  },
+  {
+    "id": "CVE-2021-2162",
+    "published": "2025-03-31T19:20:24.088388",
+    "lastModified": "2025-04-04T19:20:24.088394",
+    "description": "A information disclosure vulnerability in Example Software allows attackers to access sensitive information that should be protected. This affects versions prior to 5.9.",
+    "cvss_v3_score": 6.2,
+    "cvss_v2_score": 5.277374000106644,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2021-2162",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2162"
+    ],
+    "weak_spots": [
+      "CWE-29"
+    ]
+  },
+  {
+    "id": "CVE-2021-6795",
+    "published": "2025-03-30T19:20:24.088416",
+    "lastModified": "2025-04-02T19:20:24.088422",
+    "description": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.2.",
+    "cvss_v3_score": 8.8,
+    "cvss_v2_score": 8.145279612186474,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2021-6795",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-6795"
+    ],
+    "weak_spots": [
+      "CWE-123"
+    ]
+  },
+  {
+    "id": "CVE-2024-7464",
+    "published": "2025-04-01T19:20:24.088442",
+    "lastModified": "2025-04-01T19:20:24.088447",
+    "description": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.9.",
+    "cvss_v3_score": 7.9,
+    "cvss_v2_score": 7.246935148404763,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2024-7464",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-7464"
+    ],
+    "weak_spots": [
+      "CWE-217"
+    ]
+  },
+  {
+    "id": "CVE-2021-9086",
+    "published": "2025-04-02T19:20:24.088467",
+    "lastModified": "2025-04-04T19:20:24.088471",
+    "description": "A cross-site scripting (xss) vulnerability in Example Software allows attackers to execute arbitrary JavaScript in users' browsers and potentially steal session cookies. This affects versions prior to 5.8.",
+    "cvss_v3_score": 4.1,
+    "cvss_v2_score": 3.4512840888027077,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2021-9086",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-9086"
+    ],
+    "weak_spots": [
+      "CWE-38"
+    ]
+  },
+  {
+    "id": "CVE-2023-6526",
+    "published": "2025-03-31T19:20:24.088496",
+    "lastModified": "2025-04-03T19:20:24.088502",
+    "description": "A authentication bypass vulnerability in Example Software allows attackers to gain unauthorized access to restricted functionality. This affects versions prior to 5.1.",
+    "cvss_v3_score": 8.2,
+    "cvss_v2_score": 7.754166595517138,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2023-6526",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6526"
+    ],
+    "weak_spots": [
+      "CWE-162"
+    ]
+  },
+  {
+    "id": "CVE-2021-6465",
+    "published": "2025-03-28T19:20:24.088523",
+    "lastModified": "2025-04-03T19:20:24.088528",
+    "description": "A information disclosure vulnerability in Example Software allows attackers to access sensitive information that should be protected. This affects versions prior to 5.4.",
+    "cvss_v3_score": 4.8,
+    "cvss_v2_score": 4.117592123393486,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2021-6465",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-6465"
+    ],
+    "weak_spots": [
+      "CWE-125"
+    ]
+  },
+  {
+    "id": "CVE-2023-5042",
+    "published": "2025-03-30T19:20:24.088780",
+    "lastModified": "2025-04-04T19:20:24.088791",
+    "description": "A cross-site scripting (xss) vulnerability in Example Software allows attackers to execute arbitrary JavaScript in users' browsers and potentially steal session cookies. This affects versions prior to 5.6.",
+    "cvss_v3_score": 6.0,
+    "cvss_v2_score": 5.551432047254479,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2023-5042",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5042"
+    ],
+    "weak_spots": [
+      "CWE-115"
+    ]
+  },
+  {
+    "id": "CVE-2023-4761",
+    "published": "2025-03-31T19:20:24.088818",
+    "lastModified": "2025-04-02T19:20:24.088824",
+    "description": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.5.",
+    "cvss_v3_score": 7.1,
+    "cvss_v2_score": 6.641382794489892,
+    "severity": "HIGH",
+    "references": [
+      "https://example.com/advisories/cve-2023-4761",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4761"
+    ],
+    "weak_spots": [
+      "CWE-71"
+    ]
+  },
+  {
+    "id": "CVE-2024-8083",
+    "published": "2025-03-29T19:20:24.088884",
+    "lastModified": "2025-04-02T19:20:24.088899",
+    "description": "A information disclosure vulnerability in Example Software allows attackers to access sensitive information that should be protected. This affects versions prior to 5.0.",
+    "cvss_v3_score": 5.2,
+    "cvss_v2_score": 4.549857683090844,
+    "severity": "MEDIUM",
+    "references": [
+      "https://example.com/advisories/cve-2024-8083",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8083"
+    ],
+    "weak_spots": [
+      "CWE-288"
+    ]
+  }
+]

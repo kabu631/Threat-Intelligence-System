@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T18:23:38.544301",
+    "server": "dns-server-nepal",
+    "source_ip": "111.119.33.120",
+    "attack_type": "malware_infection",
+    "severity": "medium",
+    "details": {
+      "method": "SSH",
+      "attempts": 90,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 66
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

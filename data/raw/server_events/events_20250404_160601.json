@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T16:06:01.913367",
+    "server": "api-server-nepalganj",
+    "source_ip": "110.44.126.222",
+    "attack_type": "brute_force",
+    "severity": "critical",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 3.15,
+      "packet_count": 9418561,
+      "duration_minutes": 41
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:48:35.858794",
+    "server": "file-server-dharan",
+    "source_ip": "202.166.200.62",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

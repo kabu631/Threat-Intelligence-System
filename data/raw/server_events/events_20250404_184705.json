@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:47:05.819550",
+    "server": "mail-server-pokhara",
+    "source_ip": "111.119.40.225",
+    "attack_type": "brute_force",
+    "severity": "high",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

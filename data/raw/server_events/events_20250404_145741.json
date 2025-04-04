@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:57:41.117815",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.28.86.177",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:41:15.612480",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.69.126.75",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

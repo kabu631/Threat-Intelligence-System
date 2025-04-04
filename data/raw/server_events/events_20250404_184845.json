@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:48:45.864111",
+    "server": "web-server-ktm",
+    "source_ip": "103.28.87.57",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

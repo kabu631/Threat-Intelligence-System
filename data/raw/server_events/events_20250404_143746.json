@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:37:46.553969",
+    "server": "web-server-ktm",
+    "source_ip": "202.166.203.255",
+    "attack_type": "xss",
+    "severity": "low",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

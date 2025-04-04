@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:01:51.198632",
+    "server": "api-server-nepalganj",
+    "source_ip": "202.166.211.111",
+    "attack_type": "brute_force",
+    "severity": "medium",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 2.28,
+      "packet_count": 4588114,
+      "duration_minutes": 6
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

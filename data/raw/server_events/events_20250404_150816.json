@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:08:16.731561",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.10.29.131",
+    "attack_type": "sql_injection",
+    "severity": "high",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:45:15.699331",
+    "server": "dns-server-nepal",
+    "source_ip": "103.10.30.123",
+    "attack_type": "ddos",
+    "severity": "medium",
+    "details": {
+      "endpoint": "/api/data",
+      "payload": "' OR 1=1; --",
+      "database": "postgresql",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T18:42:55.646506",
+    "server": "mail-server-pokhara",
+    "source_ip": "202.63.252.129",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "method": "SSH",
+      "attempts": 38,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 100
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

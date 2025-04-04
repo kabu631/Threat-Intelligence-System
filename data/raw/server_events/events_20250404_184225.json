@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:42:25.640131",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.69.125.253",
+    "attack_type": "credential_stuffing",
+    "severity": "critical",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:41:35.625891",
+    "server": "web-server-ktm",
+    "source_ip": "111.119.49.239",
+    "attack_type": "port_scan",
+    "severity": "critical",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

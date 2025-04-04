@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:46:15.797783",
+    "server": "dns-server-nepal",
+    "source_ip": "103.28.84.241",
+    "attack_type": "port_scan",
+    "severity": "high",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

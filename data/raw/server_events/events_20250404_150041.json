@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:00:41.176914",
+    "server": "mail-server-pokhara",
+    "source_ip": "202.166.192.135",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "endpoint": "/search",
+      "payload": "' OR 1=1; --",
+      "database": "oracle",
+      "success": true
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

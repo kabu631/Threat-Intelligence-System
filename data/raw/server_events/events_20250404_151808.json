@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:18:08.614754",
+    "server": "db-server-biratnagar",
+    "source_ip": "27.116.137.135",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

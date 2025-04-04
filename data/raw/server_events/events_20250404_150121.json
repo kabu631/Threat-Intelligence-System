@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:01:21.191741",
+    "server": "file-server-dharan",
+    "source_ip": "103.10.31.146",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "method": "SSH",
+      "attempts": 26,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 208
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

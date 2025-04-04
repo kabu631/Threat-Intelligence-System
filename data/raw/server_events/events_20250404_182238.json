@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:22:38.526032",
+    "server": "auth-server-birgunj",
+    "source_ip": "111.119.34.36",
+    "attack_type": "sql_injection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

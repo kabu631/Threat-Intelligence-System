@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:10:36.881326",
+    "server": "dns-server-nepal",
+    "source_ip": "111.119.38.118",
+    "attack_type": "malware_infection",
+    "severity": "low",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

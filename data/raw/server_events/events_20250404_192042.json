@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T19:20:42.377127",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.69.125.169",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "endpoint": "/search",
+      "payload": "' OR 1=1; --",
+      "database": "oracle",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T16:06:21.922158",
+    "server": "dns-server-nepal",
+    "source_ip": "103.69.126.99",
+    "attack_type": "ransomware",
+    "severity": "critical",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

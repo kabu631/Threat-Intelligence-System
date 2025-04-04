@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:51:41.006130",
+    "server": "dns-server-nepal",
+    "source_ip": "111.119.50.202",
+    "attack_type": "credential_stuffing",
+    "severity": "low",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 7.57,
+      "packet_count": 988763,
+      "duration_minutes": 14
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:35:45.817178",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.69.125.114",
+    "attack_type": "unauthorized_access",
+    "severity": "medium",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

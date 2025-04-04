@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:09:26.769623",
+    "server": "auth-server-birgunj",
+    "source_ip": "202.63.249.197",
+    "attack_type": "port_scan",
+    "severity": "low",
+    "details": {
+      "method": "SSH",
+      "attempts": 88,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 221
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

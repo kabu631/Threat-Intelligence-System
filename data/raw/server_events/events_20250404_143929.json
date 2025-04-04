@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:39:29.139419",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.10.30.131",
+    "attack_type": "data_exfiltration",
+    "severity": "critical",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

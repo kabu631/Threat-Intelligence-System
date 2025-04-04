@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:21:08.715030",
+    "server": "mail-server-pokhara",
+    "source_ip": "110.44.127.35",
+    "attack_type": "data_exfiltration",
+    "severity": "critical",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 3.71,
+      "packet_count": 3521098,
+      "duration_minutes": 46
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

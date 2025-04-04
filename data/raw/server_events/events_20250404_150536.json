@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:05:36.641438",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.93.182",
+    "attack_type": "port_scan",
+    "severity": "high",
+    "details": {
+      "method": "RDP",
+      "attempts": 92,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 150
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:16:58.586970",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.69.126.115",
+    "attack_type": "credential_stuffing",
+    "severity": "medium",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

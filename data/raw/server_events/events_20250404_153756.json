@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:37:56.925607",
+    "server": "file-server-dharan",
+    "source_ip": "27.35.83.46",
+    "attack_type": "port_scan",
+    "severity": "medium",
+    "details": {
+      "method": "RDP",
+      "attempts": 24,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 276
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

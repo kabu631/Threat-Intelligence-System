@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:55:01.061774",
+    "server": "file-server-dharan",
+    "source_ip": "110.44.114.81",
+    "attack_type": "data_exfiltration",
+    "severity": "medium",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 6.26,
+      "packet_count": 7353419,
+      "duration_minutes": 43
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

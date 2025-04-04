@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:34:05.771696",
+    "server": "web-server-ktm",
+    "source_ip": "103.10.28.151",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

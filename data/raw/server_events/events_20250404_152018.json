@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:20:18.688683",
+    "server": "mail-server-pokhara",
+    "source_ip": "202.63.244.174",
+    "attack_type": "ransomware",
+    "severity": "high",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

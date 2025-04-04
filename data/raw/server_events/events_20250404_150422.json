@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:04:22.040605",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.10.30.230",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

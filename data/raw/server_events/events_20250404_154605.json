@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:46:05.528720",
+    "server": "web-server-ktm",
+    "source_ip": "103.69.125.15",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

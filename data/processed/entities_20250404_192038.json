@@ -1,0 +1,466 @@
+[
+  {
+    "cve_id": "CVE-2020-5400",
+    "entities": [
+      {
+        "text": "5.8",
+        "type": "CARDINAL",
+        "start": 152,
+        "end": 155
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2025-7632",
+    "entities": [
+      {
+        "text": "5.1",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-9643",
+    "entities": [
+      {
+        "text": "5.8",
+        "type": "CARDINAL",
+        "start": 171,
+        "end": 174
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2025-8717",
+    "entities": [
+      {
+        "text": "5.7",
+        "type": "CARDINAL",
+        "start": 171,
+        "end": 174
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-3149",
+    "entities": [
+      {
+        "text": "5.0",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2020-3391",
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "CARDINAL",
+        "start": 152,
+        "end": 155
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-3639",
+    "entities": [
+      {
+        "text": "5.1",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-6216",
+    "entities": [
+      {
+        "text": "5.6",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2020-6108",
+    "entities": [
+      {
+        "text": "5.3",
+        "type": "CARDINAL",
+        "start": 166,
+        "end": 169
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6965",
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-7005",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 163,
+        "end": 166
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-6398",
+    "entities": [
+      {
+        "text": "JavaScript",
+        "type": "PRODUCT",
+        "start": 101,
+        "end": 111
+      },
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 201,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3628",
+    "entities": [
+      {
+        "text": "5.5",
+        "type": "CARDINAL",
+        "start": 163,
+        "end": 166
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2020-9735",
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "CARDINAL",
+        "start": 165,
+        "end": 168
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6592",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 152,
+        "end": 155
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-2361",
+    "entities": [
+      {
+        "text": "5.4",
+        "type": "CARDINAL",
+        "start": 152,
+        "end": 155
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2025-5270",
+    "entities": [
+      {
+        "text": "5.3",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2020-1228",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-8093",
+    "entities": [
+      {
+        "text": "5.5",
+        "type": "CARDINAL",
+        "start": 171,
+        "end": 174
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-1972",
+    "entities": [
+      {
+        "text": "5.5",
+        "type": "CARDINAL",
+        "start": 171,
+        "end": 174
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-8067",
+    "entities": [
+      {
+        "text": "5.4",
+        "type": "CARDINAL",
+        "start": 166,
+        "end": 169
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-9802",
+    "entities": [
+      {
+        "text": "5.4",
+        "type": "CARDINAL",
+        "start": 152,
+        "end": 155
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-3585",
+    "entities": [
+      {
+        "text": "JavaScript",
+        "type": "PRODUCT",
+        "start": 101,
+        "end": 111
+      },
+      {
+        "text": "5.1",
+        "type": "CARDINAL",
+        "start": 201,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-1424",
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "CARDINAL",
+        "start": 156,
+        "end": 159
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3211",
+    "entities": [
+      {
+        "text": "5.8",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2025-3789",
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-7548",
+    "entities": [
+      {
+        "text": "5.0",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2025-3533",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2025-3231",
+    "entities": [
+      {
+        "text": "5.1",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-4735",
+    "entities": [
+      {
+        "text": "5.7",
+        "type": "CARDINAL",
+        "start": 166,
+        "end": 169
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2020-6689",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-2162",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 165,
+        "end": 168
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-6795",
+    "entities": [
+      {
+        "text": "5.2",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-7464",
+    "entities": [
+      {
+        "text": "5.9",
+        "type": "CARDINAL",
+        "start": 168,
+        "end": 171
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-9086",
+    "entities": [
+      {
+        "text": "JavaScript",
+        "type": "PRODUCT",
+        "start": 101,
+        "end": 111
+      },
+      {
+        "text": "5.8",
+        "type": "CARDINAL",
+        "start": 201,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6526",
+    "entities": [
+      {
+        "text": "5.1",
+        "type": "CARDINAL",
+        "start": 163,
+        "end": 166
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-6465",
+    "entities": [
+      {
+        "text": "5.4",
+        "type": "CARDINAL",
+        "start": 165,
+        "end": 168
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-5042",
+    "entities": [
+      {
+        "text": "JavaScript",
+        "type": "PRODUCT",
+        "start": 101,
+        "end": 111
+      },
+      {
+        "text": "5.6",
+        "type": "CARDINAL",
+        "start": 201,
+        "end": 204
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-4761",
+    "entities": [
+      {
+        "text": "5.5",
+        "type": "CARDINAL",
+        "start": 167,
+        "end": 170
+      }
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-8083",
+    "entities": [
+      {
+        "text": "5.0",
+        "type": "CARDINAL",
+        "start": 165,
+        "end": 168
+      }
+    ]
+  }
+]

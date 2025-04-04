@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat Intelligence Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            border-left: 5px solid #f5c6cb;
+        }
+        .server-instructions {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            border-left: 5px solid #c3e6cb;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        .retry-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+            display: block;
+        }
+        .retry-button:hover {
+            background-color: #0069d9;
+        }
+        @media (max-width: 768px) {
+            .table-container {
+                overflow-x: auto;
+            }
+            .card {
+                min-width: 100%;
+            }
+            .form-section {
+                padding: 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+            header p {
+                font-size: 14px;
+            }
+            .card-header h2 {
+                font-size: 20px;
+            }
+            .error-message h2, .server-instructions h3 {
+                font-size: 18px;
+            }
+        }
+        /* Nepal monitoring styles */
+        .nepal-dashboard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .nepal-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        .stat-box {
+            background-color: #f8f9fc;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            border-left: 4px solid var(--secondary-color);
+        }
+        .stat-box h4 {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+        }
+        .stat-box p {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .chart-container {
+            position: relative;
+            height: 250px;
+        }
+        .event-row {
+            cursor: pointer;
+        }
+        .event-row:hover {
+            background-color: #eef5ff !important;
+        }
+        .event-details-container {
+            background-color: white;
+            border: 1px solid #e3e6f0;
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 20px;
+            display: none;
+        }
+        .event-details-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e3e6f0;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .event-details-header h4 {
+            margin: 0;
+        }
+        .event-json-details {
+            background-color: #f8f9fc;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .event-json-details pre {
+            margin: 0;
+            white-space: pre-wrap;
+            font-size: 12px;
+        }
+        .monitor-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 15px;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+            margin-left: 10px;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 24px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: var(--success-color);
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        /* Adjust chart sizes in global dashboard */
+        .global-overview .chart-row {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .global-overview .overview-card {
+            height: 250px;
+        }
+        
+        .global-overview canvas {
+            max-height: 180px;
+        }
+        
+        /* Make Nepal charts consistent with global ones */
+        .nepal-dashboard-overview {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .nepal-dashboard-overview .overview-card {
+            height: 250px;
+        }
+        
+        .nepal-dashboard-overview canvas {
+            max-height: 180px;
+        }
+        
+        @media (min-width: 992px) {
+            .global-overview .chart-row {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            .nepal-dashboard-overview {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Threat Intelligence Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard" class="active">Dashboard</a></li>
+                <li><a href="#analysis">Analysis Tools</a></li>
+                <li><a href="#nepal-monitor">Nepal Monitor</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="dashboard-section active-section">
+            <h2>Threat Intelligence Dashboard</h2>
+            
+            <!-- Global Threat Overview with Live Map -->
+            <div class="global-overview">
+                <h3 class="section-title">Global Threat Overview</h3>
+                
+                <!-- Chart Row -->
+                <div class="chart-row">
+                    <div class="overview-card">
+                        <h3>Threat Distribution</h3>
+                        <canvas id="threatDistributionChart"></canvas>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Attack Types</h3>
+                        <canvas id="attackTypesChart"></canvas>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Geographic Distribution</h3>
+                        <canvas id="geoDistributionChart"></canvas>
+                    </div>
+                    <div class="overview-card">
+                        <h3>Severity Breakdown</h3>
+                        <canvas id="severityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Horizontal Info Sections -->
+            <div class="horizontal-sections">
+                <div class="info-section">
+                    <h3>Recent CVEs</h3>
+                    <div class="cve-search-controls">
+                        <select id="cve-severity-filter">
+                            <option value="all">All Severities</option>
+                            <option value="critical">Critical</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                        <input type="text" id="cve-search" placeholder="Search CVEs by ID or description...">
+                    </div>
+                    <div class="scrollable-table">
+                        <table id="cve-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Published</th>
+                                    <th>Severity</th>
+                                    <th>CVSS</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5" class="loading-message">Loading CVE data...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Threat Topics</h3>
+                    <div id="topic-container">
+                        <p class="loading-message">Loading topic data...</p>
+                    </div>
+                </div>
+                
+                <div class="info-section">
+                    <h3>Identified Entities</h3>
+                    <div id="entity-container">
+                        <p class="loading-message">Loading entity data...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Threat Type Analysis Section -->
+            <div class="threat-analysis-section">
+                <h3>Threat Type Analysis</h3>
+                <div class="threat-type-cards">
+                    <div class="threat-type-card">
+                        <h4>Ransomware</h4>
+                        <p class="percentage">32%</p>
+                        <div class="trend up">▲ 5%</div>
+                        <p class="victims">Affected systems: 124</p>
+                    </div>
+                    <div class="threat-type-card">
+                        <h4>Phishing</h4>
+                        <p class="percentage">28%</p>
+                        <div class="trend up">▲ 3%</div>
+                        <p class="victims">Affected systems: 115</p>
+                    </div>
+                    <div class="threat-type-card">
+                        <h4>DDoS</h4>
+                        <p class="percentage">18%</p>
+                        <div class="trend down">▼ 2%</div>
+                        <p class="victims">Affected systems: 87</p>
+                    </div>
+                    <div class="threat-type-card">
+                        <h4>Zero-day</h4>
+                        <p class="percentage">12%</p>
+                        <div class="trend up">▲ 7%</div>
+                        <p class="victims">Affected systems: 53</p>
+                    </div>
+                    <div class="threat-type-card">
+                        <h4>Other</h4>
+                        <p class="percentage">10%</p>
+                        <div class="trend down">▼ 1%</div>
+                        <p class="victims">Affected systems: 41</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- System Status and Component Health Section -->
+            <div class="dashboard-section">
+                <h2 class="section-title">System Status & Component Health</h2>
+                <div class="status-grid">
+                    <div class="status-card green" data-component="API Service">
+                        <div class="status-icon">✓</div>
+                        <div class="status-info">
+                            <h3>API Service</h3>
+                            <p>Operational</p>
+                        </div>
+                    </div>
+                    <div class="status-card green" data-component="Database">
+                        <div class="status-icon">✓</div>
+                        <div class="status-info">
+                            <h3>Database</h3>
+                            <p>Connected</p>
+                        </div>
+                    </div>
+                    <div class="status-card green" data-component="Data Processing">
+                        <div class="status-icon">✓</div>
+                        <div class="status-info">
+                            <h3>Data Processing</h3>
+                            <p>Running</p>
+                        </div>
+                    </div>
+                    <div class="status-card yellow" data-component="Threat Feed">
+                        <div class="status-icon">!</div>
+                        <div class="status-info">
+                            <h3>Threat Feed</h3>
+                            <p>Degraded (4/5 sources)</p>
+                        </div>
+                    </div>
+                    <div class="status-card green" data-component="Analysis Engine">
+                        <div class="status-icon">✓</div>
+                        <div class="status-info">
+                            <h3>Analysis Engine</h3>
+                            <p>Operational</p>
+                        </div>
+                    </div>
+                    <div class="status-card red" data-component="External Scanner">
+                        <div class="status-icon">✗</div>
+                        <div class="status-info">
+                            <h3>External Scanner</h3>
+                            <p>Offline</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resource-metrics">
+                    <div class="metric-card" data-resource="cpu">
+                        <h3>CPU Usage</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 35%;"></div>
+                        </div>
+                        <p>35%</p>
+                    </div>
+                    <div class="metric-card" data-resource="memory">
+                        <h3>Memory Usage</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 62%;"></div>
+                        </div>
+                        <p>62%</p>
+                    </div>
+                    <div class="metric-card" data-resource="disk">
+                        <h3>Disk Usage</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 47%;"></div>
+                        </div>
+                        <p>47%</p>
+                    </div>
+                    <div class="metric-card" data-resource="network">
+                        <h3>Network Load</h3>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 28%;"></div>
+                        </div>
+                        <p>28%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent CVE Data Section -->
+            <div class="dashboard-section">
+                <h2 class="section-title">Recent CVE Data</h2>
+                <div class="cve-filter">
+                    <select id="cve-severity-filter">
+                        <option value="all">All Severities</option>
+                        <option value="critical">Critical</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                    <input type="text" id="cve-search" placeholder="Search CVEs...">
+                </div>
+                <div class="scrollable-table">
+                    <table id="cve-table">
+                        <thead>
+                            <tr>
+                                <th>CVE ID</th>
+                                <th>Published</th>
+                                <th>Description</th>
+                                <th>Severity</th>
+                                <th>CVSS</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CVE-2023-1234</td>
+                                <td>2023-07-15</td>
+                                <td>Remote code execution vulnerability in Apache Struts</td>
+                                <td><span class="severity-badge severity-critical">Critical</span></td>
+                                <td>9.8</td>
+                                <td><button class="view-details-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>CVE-2023-5678</td>
+                                <td>2023-08-02</td>
+                                <td>SQL injection vulnerability in MySQL</td>
+                                <td><span class="severity-badge severity-high">High</span></td>
+                                <td>8.5</td>
+                                <td><button class="view-details-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>CVE-2023-9012</td>
+                                <td>2023-08-22</td>
+                                <td>Cross-site scripting vulnerability in WordPress plugin</td>
+                                <td><span class="severity-badge severity-medium">Medium</span></td>
+                                <td>6.4</td>
+                                <td><button class="view-details-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>CVE-2023-3456</td>
+                                <td>2023-09-05</td>
+                                <td>Buffer overflow in OpenSSL affecting TLS handshake</td>
+                                <td><span class="severity-badge severity-critical">Critical</span></td>
+                                <td>9.2</td>
+                                <td><button class="view-details-btn">View</button></td>
+                            </tr>
+                            <tr>
+                                <td>CVE-2023-7890</td>
+                                <td>2023-09-18</td>
+                                <td>Authentication bypass in Cisco network devices</td>
+                                <td><span class="severity-badge severity-high">High</span></td>
+                                <td>7.8</td>
+                                <td><button class="view-details-btn">View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Topic Modeling & Entity Analysis Section -->
+            <div class="dashboard-section">
+                <h2 class="section-title">Trend Analysis</h2>
+                <div class="analysis-container">
+                    <div class="analysis-column">
+                        <h3>Topic Modeling of Security Vulnerabilities</h3>
+                        <div class="topic-modeling-results">
+                            <div class="topic-item">
+                                <h4>Ransomware Campaigns</h4>
+                                <div class="probability-container">
+                                    <div class="probability-label">Prevalence: 85%</div>
+                                    <div class="probability-bar">
+                                        <div class="probability-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="topic-keywords">
+                                    <span>Keywords:</span>
+                                    <span class="keyword">encryption</span>
+                                    <span class="keyword">bitcoin</span>
+                                    <span class="keyword">payment</span>
+                                    <span class="keyword">recovery</span>
+                                </div>
+                            </div>
+                            
+                            <div class="topic-item">
+                                <h4>Data Breaches</h4>
+                                <div class="probability-container">
+                                    <div class="probability-label">Prevalence: 78%</div>
+                                    <div class="probability-bar">
+                                        <div class="probability-fill" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                                <div class="topic-keywords">
+                                    <span>Keywords:</span>
+                                    <span class="keyword">leak</span>
+                                    <span class="keyword">exposure</span>
+                                    <span class="keyword">credentials</span>
+                                    <span class="keyword">personal data</span>
+                                </div>
+                            </div>
+                            
+                            <div class="topic-item">
+                                <h4>Zero-day Exploits</h4>
+                                <div class="probability-container">
+                                    <div class="probability-label">Prevalence: 72%</div>
+                                    <div class="probability-bar">
+                                        <div class="probability-fill" style="width: 72%"></div>
+                                    </div>
+                                </div>
+                                <div class="topic-keywords">
+                                    <span>Keywords:</span>
+                                    <span class="keyword">vulnerability</span>
+                                    <span class="keyword">unpatched</span>
+                                    <span class="keyword">exploit</span>
+                                    <span class="keyword">disclosure</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="analysis-column">
+                        <h3>Extracted Entities from Threat Reports</h3>
+                        <div class="entity-results-container">
+                            <div class="entity-type entity-type-threat">
+                                <h4>Threat Actors</h4>
+                                <div class="entity-list">
+                                    <span class="entity-tag">APT29</span>
+                                    <span class="entity-tag">Lazarus Group</span>
+                                    <span class="entity-tag">Conti</span>
+                                    <span class="entity-tag">BlackMatter</span>
+                                </div>
+                            </div>
+                            
+                            <div class="entity-type entity-type-vuln">
+                                <h4>Vulnerabilities</h4>
+                                <div class="entity-list">
+                                    <span class="entity-tag">Log4j</span>
+                                    <span class="entity-tag">CVE-2023-1234</span>
+                                    <span class="entity-tag">PrintNightmare</span>
+                                    <span class="entity-tag">ProxyShell</span>
+                                </div>
+                            </div>
+                            
+                            <div class="entity-type entity-type-tech">
+                                <h4>Technologies</h4>
+                                <div class="entity-list">
+                                    <span class="entity-tag">Apache Struts</span>
+                                    <span class="entity-tag">OpenSSL</span>
+                                    <span class="entity-tag">Windows 11</span>
+                                    <span class="entity-tag">Kubernetes</span>
+                                </div>
+                            </div>
+                            
+                            <div class="entity-type entity-type-org">
+                                <h4>Organizations</h4>
+                                <div class="entity-list">
+                                    <span class="entity-tag">Microsoft</span>
+                                    <span class="entity-tag">CISA</span>
+                                    <span class="entity-tag">FBI</span>
+                                    <span class="entity-tag">Cisco</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Tools Section -->
+        <section id="analysis" class="hidden-section">
+            <h2>Analysis Tools</h2>
+            <div class="tool-container">
+                <div class="tool-card">
+                    <h3>IOC Extractor</h3>
+                    <p>Extract indicators of compromise from text.</p>
+                    <textarea id="ioc-input" placeholder="Paste text containing potential IOCs here..."></textarea>
+                    <button id="extract-ioc-btn">Extract IOCs</button>
+                    <div id="ioc-results" class="results-container">
+                        <p class="placeholder-text">Results will appear here.</p>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <h3>Topic Modeling</h3>
+                    <p>Analyze topics in threat intelligence reports.</p>
+                    <textarea id="topic-input" placeholder="Paste text for topic modeling here..."></textarea>
+                    <button id="analyze-topic-btn">Analyze Topics</button>
+                    <div id="topic-results" class="results-container">
+                        <p class="placeholder-text">Results will appear here.</p>
+                    </div>
+                </div>
+                <div class="tool-card">
+                    <h3>Named Entity Extraction</h3>
+                    <p>Identify named entities in text.</p>
+                    <textarea id="ner-input" placeholder="Paste text for named entity recognition here..."></textarea>
+                    <button id="extract-entities-btn">Extract Entities</button>
+                    <div id="ner-results" class="results-container">
+                        <p class="placeholder-text">Results will appear here.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nepal Monitor Section -->
+        <section id="nepal-monitor" class="nepal-monitor-section hidden-section">
+            <h2>Nepal Server Monitor <span class="realtime-indicator">Live Data</span></h2>
+            
+            <div class="monitor-header">
+                <div class="monitor-controls">
+                    <div class="monitor-status-container">
+                        <span>Monitoring Status:</span>
+                        <span id="monitor-status">Disabled</span>
+                    </div>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="nepal-monitor-toggle">
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-label">Enable Live Monitoring</span>
+                    </label>
+                    <div class="refresh-controls">
+                        <button id="nepal-refresh-btn" class="refresh-btn">
+                            <i class="refresh-icon">↻</i> Refresh Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Nepal Threat Overview -->
+            <div class="nepal-dashboard-overview">
+                <div class="overview-card">
+                    <h3>Threat Distribution (Nepal)</h3>
+                    <canvas id="nepalThreatDistributionChart"></canvas>
+                </div>
+                <div class="overview-card">
+                    <h3>Attack Types (Nepal)</h3>
+                    <canvas id="nepalAttackTypesChart"></canvas>
+                </div>
+                <div class="overview-card">
+                    <h3>Geographic Distribution</h3>
+                    <canvas id="nepalGeoDistributionChart"></canvas>
+                </div>
+                <div class="overview-card">
+                    <h3>Severity Breakdown</h3>
+                    <canvas id="nepalSeverityChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Nepal Threat Stats -->
+            <div class="nepal-stats-grid">
+                <div class="nepal-stat-card">
+                    <h4>Total Events</h4>
+                    <p class="stat-value" id="nepal-total-events">0</p>
+                    <p class="stat-period">Last 24 hours</p>
+                </div>
+                <div class="nepal-stat-card">
+                    <h4>Critical Severity</h4>
+                    <p class="stat-value critical" id="nepal-critical-events">0</p>
+                    <p class="stat-period">Last 24 hours</p>
+                </div>
+                <div class="nepal-stat-card">
+                    <h4>High Severity</h4>
+                    <p class="stat-value high" id="nepal-high-events">0</p>
+                    <p class="stat-period">Last 24 hours</p>
+                </div>
+                <div class="nepal-stat-card">
+                    <h4>Medium Severity</h4>
+                    <p class="stat-value medium" id="nepal-medium-events">0</p>
+                    <p class="stat-period">Last 24 hours</p>
+                </div>
+                <div class="nepal-stat-card">
+                    <h4>Low Severity</h4>
+                    <p class="stat-value low" id="nepal-low-events">0</p>
+                    <p class="stat-period">Last 24 hours</p>
+                </div>
+            </div>
+
+            <!-- Nepal Threat Type Analysis -->
+            <div class="threat-analysis-section">
+                <h3>Nepal-Specific Threat Types</h3>
+                <div class="threat-type-cards">
+                    <div class="threat-type-card nepal-card">
+                        <h4>Web Attacks</h4>
+                        <p class="percentage">42%</p>
+                        <div class="trend up">▲ 12%</div>
+                        <p class="victims">Affected systems: 76</p>
+                    </div>
+                    <div class="threat-type-card nepal-card">
+                        <h4>Brute Force</h4>
+                        <p class="percentage">23%</p>
+                        <div class="trend up">▲ 8%</div>
+                        <p class="victims">Affected systems: 42</p>
+                    </div>
+                    <div class="threat-type-card nepal-card">
+                        <h4>Data Exfiltration</h4>
+                        <p class="percentage">15%</p>
+                        <div class="trend up">▲ 5%</div>
+                        <p class="victims">Affected systems: 27</p>
+                    </div>
+                    <div class="threat-type-card nepal-card">
+                        <h4>Malware</h4>
+                        <p class="percentage">12%</p>
+                        <div class="trend down">▼ 2%</div>
+                        <p class="victims">Affected systems: 21</p>
+                    </div>
+                    <div class="threat-type-card nepal-card">
+                        <h4>Other</h4>
+                        <p class="percentage">8%</p>
+                        <div class="trend neutral">0%</div>
+                        <p class="victims">Affected systems: 14</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nepal Event Monitoring -->
+            <div class="event-container">
+                <div class="event-table-section">
+                    <h3>Latest Events</h3>
+                    <div class="scrollable-table">
+                        <table id="nepal-events-table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Server</th>
+                                    <th>Source IP</th>
+                                    <th>Attack Type</th>
+                                    <th>Severity</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="6" class="loading-message">Loading events...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="event-details" id="nepal-event-details">
+                    <h3>Event Details</h3>
+                    <p class="placeholder-text">Select an event to view details.</p>
+                </div>
+            </div>
+
+            <!-- Nepal Top Servers and Sources -->
+            <div class="top-tables-container">
+                <div class="top-table">
+                    <h3>Top Targeted Servers</h3>
+                    <table id="nepal-top-servers">
+                        <thead>
+                            <tr>
+                                <th>Server</th>
+                                <th>Events</th>
+                                <th>Top Attack Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="loading-message">Loading data...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="top-table">
+                    <h3>Top Attack Sources</h3>
+                    <table id="nepal-top-sources">
+                        <thead>
+                            <tr>
+                                <th>Source IP</th>
+                                <th>Country</th>
+                                <th>Events</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="loading-message">Loading data...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings" class="hidden-section">
+            <h2>Settings</h2>
+            <div class="settings-container">
+                <div class="settings-card">
+                    <h3>Dashboard Settings</h3>
+                    <div class="setting-item">
+                        <label for="refresh-interval">Auto-refresh interval (seconds):</label>
+                        <input type="number" id="refresh-interval" min="5" max="300" value="30">
+                    </div>
+                    <div class="setting-item">
+                        <label for="dark-mode-toggle">Dark Mode:</label>
+                        <label class="switch">
+                            <input type="checkbox" id="dark-mode-toggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label for="notifications-toggle">Real-time Notifications:</label>
+                        <label class="switch">
+                            <input type="checkbox" id="notifications-toggle" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="settings-card">
+                    <h3>API Configuration</h3>
+                    <div class="setting-item">
+                        <label for="api-url">API Base URL:</label>
+                        <input type="text" id="api-url" value="http://localhost:9000">
+                    </div>
+                    <div class="setting-item">
+                        <label for="ws-url">WebSocket URL:</label>
+                        <input type="text" id="ws-url" value="ws://localhost:9000">
+                    </div>
+                    <div class="setting-item">
+                        <button id="test-api-btn">Test Connection</button>
+                        <span id="api-status"></span>
+                    </div>
+                    <div class="setting-item">
+                        <button id="reconnect-ws-btn">Reconnect WebSockets</button>
+                    </div>
+                </div>
+                <div class="settings-card">
+                    <h3>Connection Status</h3>
+                    <div class="connection-status">
+                        <p><strong>API Server:</strong> <span id="settings-api-status">Checking...</span></p>
+                        <p><strong>Global WebSocket:</strong> <span id="settings-global-ws-status">Checking...</span></p>
+                        <p><strong>Nepal WebSocket:</strong> <span id="settings-nepal-ws-status">Checking...</span></p>
+                        <p><strong>IOC Extractor:</strong> <span id="ioc_extractor-status">Checking...</span></p>
+                        <p><strong>Topic Modeler:</strong> <span id="topic_modeler-status">Checking...</span></p>
+                        <p><strong>NER Model:</strong> <span id="ner_model-status">Checking...</span></p>
+                        <p><strong>Nepal Monitor:</strong> <span id="nepal_monitor-status">Checking...</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Threat Intelligence Automation System © 2025</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html> 

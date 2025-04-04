@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:59:14.105692",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.69.127.33",
+    "attack_type": "sql_injection",
+    "severity": "low",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

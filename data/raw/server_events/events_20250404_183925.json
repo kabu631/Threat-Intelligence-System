@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:39:25.574996",
+    "server": "file-server-dharan",
+    "source_ip": "202.63.251.186",
+    "attack_type": "malware_infection",
+    "severity": "high",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

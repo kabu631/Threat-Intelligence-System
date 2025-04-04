@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:34:55.793156",
+    "server": "dns-server-nepal",
+    "source_ip": "27.116.12.102",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "method": "SSH",
+      "attempts": 51,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 178
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

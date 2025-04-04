@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:52:10.340122",
+    "server": "file-server-dharan",
+    "source_ip": "103.10.31.33",
+    "attack_type": "credential_stuffing",
+    "severity": "low",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

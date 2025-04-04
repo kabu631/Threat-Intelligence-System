@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:43:05.652515",
+    "server": "dns-server-nepal",
+    "source_ip": "27.116.59.54",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 7.94,
+      "packet_count": 8484917,
+      "duration_minutes": 35
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

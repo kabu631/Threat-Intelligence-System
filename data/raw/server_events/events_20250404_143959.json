@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:39:59.148186",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "110.44.114.204",
+    "attack_type": "malware_infection",
+    "severity": "medium",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

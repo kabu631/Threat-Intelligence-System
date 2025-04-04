@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:34:38.583771",
+    "server": "auth-server-birgunj",
+    "source_ip": "202.63.243.214",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

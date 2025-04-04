@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:39:49.142140",
+    "server": "dns-server-nepal",
+    "source_ip": "27.35.248.226",
+    "attack_type": "sql_injection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T16:07:01.940539",
+    "server": "dns-server-nepal",
+    "source_ip": "202.166.211.131",
+    "attack_type": "malware_infection",
+    "severity": "high",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

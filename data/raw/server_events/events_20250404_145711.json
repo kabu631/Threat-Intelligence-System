@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:57:11.105846",
+    "server": "api-server-nepalganj",
+    "source_ip": "202.166.208.183",
+    "attack_type": "credential_stuffing",
+    "severity": "medium",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

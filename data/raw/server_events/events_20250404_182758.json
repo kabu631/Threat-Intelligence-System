@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:27:58.725503",
+    "server": "auth-server-birgunj",
+    "source_ip": "27.35.44.153",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "endpoint": "/search",
+      "payload": "' OR 1=1; --",
+      "database": "mysql",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

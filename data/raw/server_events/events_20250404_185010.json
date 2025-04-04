@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:50:10.285479",
+    "server": "file-server-dharan",
+    "source_ip": "103.69.124.43",
+    "attack_type": "brute_force",
+    "severity": "high",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

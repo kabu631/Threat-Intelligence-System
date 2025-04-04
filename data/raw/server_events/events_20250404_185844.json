@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:58:44.096496",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.10.30.86",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "method": "TCP SYN flood",
+      "traffic_gbps": 4.68,
+      "packet_count": 4471010,
+      "duration_minutes": 31
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:46:25.531199",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.69.126.90",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

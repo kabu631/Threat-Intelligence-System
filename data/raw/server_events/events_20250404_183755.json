@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:37:55.553149",
+    "server": "file-server-dharan",
+    "source_ip": "103.69.125.200",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

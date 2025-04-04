@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:25:38.619177",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.28.85.89",
+    "attack_type": "credential_stuffing",
+    "severity": "critical",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

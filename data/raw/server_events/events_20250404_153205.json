@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:32:05.743996",
+    "server": "file-server-dharan",
+    "source_ip": "202.166.220.149",
+    "attack_type": "credential_stuffing",
+    "severity": "high",
+    "details": {
+      "method": "SSH",
+      "attempts": 76,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 43
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

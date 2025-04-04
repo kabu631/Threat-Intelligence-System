@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:38:16.937216",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.1.93.164",
+    "attack_type": "xss",
+    "severity": "low",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

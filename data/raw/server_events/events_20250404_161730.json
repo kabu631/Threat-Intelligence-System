@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T16:17:30.364708",
+    "server": "api-server-nepalganj",
+    "source_ip": "27.34.129.152",
+    "attack_type": "sql_injection",
+    "severity": "medium",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

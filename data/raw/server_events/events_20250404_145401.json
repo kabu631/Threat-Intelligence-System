@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:54:01.045081",
+    "server": "dns-server-nepal",
+    "source_ip": "103.28.85.10",
+    "attack_type": "unauthorized_access",
+    "severity": "high",
+    "details": {
+      "method": "TCP SYN flood",
+      "traffic_gbps": 4.7,
+      "packet_count": 4725187,
+      "duration_minutes": 41
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

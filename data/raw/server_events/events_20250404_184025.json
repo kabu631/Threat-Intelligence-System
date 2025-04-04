@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:40:25.595489",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.92.204",
+    "attack_type": "data_exfiltration",
+    "severity": "medium",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

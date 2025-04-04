@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:52:31.018242",
+    "server": "db-server-biratnagar",
+    "source_ip": "27.116.88.14",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "endpoint": "/login",
+      "payload": "' OR 1=1; --",
+      "database": "mysql",
+      "success": true
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

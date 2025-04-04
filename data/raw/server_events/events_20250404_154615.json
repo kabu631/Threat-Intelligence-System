@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:46:15.529801",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.28.86.8",
+    "attack_type": "ransomware",
+    "severity": "low",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

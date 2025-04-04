@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:29:08.771384",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.93.84",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "method": "TCP SYN flood",
+      "traffic_gbps": 7.48,
+      "packet_count": 505924,
+      "duration_minutes": 56
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

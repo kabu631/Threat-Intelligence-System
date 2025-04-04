@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:37:25.542667",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.93.207",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

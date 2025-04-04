@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:02:21.205427",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "27.116.71.4",
+    "attack_type": "xss",
+    "severity": "critical",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:51:51.008486",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "202.63.242.157",
+    "attack_type": "ransomware",
+    "severity": "low",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

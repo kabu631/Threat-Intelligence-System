@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:06:16.651819",
+    "server": "db-server-biratnagar",
+    "source_ip": "110.44.122.208",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

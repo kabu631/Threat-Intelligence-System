@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:19:58.668707",
+    "server": "dns-server-nepal",
+    "source_ip": "103.69.126.186",
+    "attack_type": "unauthorized_access",
+    "severity": "low",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

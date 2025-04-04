@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:42:09.221064",
+    "server": "api-server-nepalganj",
+    "source_ip": "111.119.61.183",
+    "attack_type": "credential_stuffing",
+    "severity": "high",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

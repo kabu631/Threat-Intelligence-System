@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:01:31.194087",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "202.63.244.203",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

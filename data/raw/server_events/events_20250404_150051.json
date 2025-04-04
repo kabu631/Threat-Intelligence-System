@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:00:51.181490",
+    "server": "auth-server-birgunj",
+    "source_ip": "27.116.41.171",
+    "attack_type": "malware_infection",
+    "severity": "medium",
+    "details": {
+      "endpoint": "/api/data",
+      "payload": "' OR 1=1; --",
+      "database": "mysql",
+      "success": true
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

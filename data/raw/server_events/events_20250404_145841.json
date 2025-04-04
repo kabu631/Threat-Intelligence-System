@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T14:58:41.138274",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "27.116.207.27",
+    "attack_type": "malware_infection",
+    "severity": "low",
+    "details": {
+      "method": "RDP",
+      "attempts": 89,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 158
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:07:36.711995",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.28.87.51",
+    "attack_type": "sql_injection",
+    "severity": "high",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 1.63,
+      "packet_count": 995857,
+      "duration_minutes": 51
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

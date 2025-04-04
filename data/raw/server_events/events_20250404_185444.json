@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T18:54:44.001259",
+    "server": "api-server-nepalganj",
+    "source_ip": "27.117.143.250",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "method": "SSH",
+      "attempts": 96,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 167
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

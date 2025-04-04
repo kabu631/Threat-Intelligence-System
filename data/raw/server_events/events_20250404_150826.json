@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:08:26.733948",
+    "server": "dns-server-nepal",
+    "source_ip": "111.119.59.17",
+    "attack_type": "brute_force",
+    "severity": "high",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

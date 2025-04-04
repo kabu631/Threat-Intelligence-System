@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:52:40.347927",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.1.95.73",
+    "attack_type": "port_scan",
+    "severity": "critical",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 8.46,
+      "packet_count": 5096980,
+      "duration_minutes": 6
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

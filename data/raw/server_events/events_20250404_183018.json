@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T18:30:18.793677",
+    "server": "auth-server-birgunj",
+    "source_ip": "27.117.254.151",
+    "attack_type": "ransomware",
+    "severity": "medium",
+    "details": {
+      "method": "SSH",
+      "attempts": 17,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 209
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

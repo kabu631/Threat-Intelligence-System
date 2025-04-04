@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:26:58.697676",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.10.28.191",
+    "attack_type": "credential_stuffing",
+    "severity": "low",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

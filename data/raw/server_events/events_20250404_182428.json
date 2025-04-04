@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:24:28.560362",
+    "server": "mail-server-pokhara",
+    "source_ip": "27.116.20.147",
+    "attack_type": "data_exfiltration",
+    "severity": "medium",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

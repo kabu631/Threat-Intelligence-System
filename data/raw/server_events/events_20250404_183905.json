@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:39:05.567373",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.28.84.233",
+    "attack_type": "data_exfiltration",
+    "severity": "medium",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 0.98,
+      "packet_count": 4272530,
+      "duration_minutes": 41
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

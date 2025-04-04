@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:40:19.158104",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "110.44.119.190",
+    "attack_type": "ransomware",
+    "severity": "medium",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

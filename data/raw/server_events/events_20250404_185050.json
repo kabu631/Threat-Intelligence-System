@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:50:50.314020",
+    "server": "auth-server-birgunj",
+    "source_ip": "110.44.119.250",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

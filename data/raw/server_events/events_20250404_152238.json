@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:22:38.792361",
+    "server": "web-server-ktm",
+    "source_ip": "27.35.34.142",
+    "attack_type": "sql_injection",
+    "severity": "high",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

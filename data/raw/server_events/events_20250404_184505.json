@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:45:05.696379",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.10.28.23",
+    "attack_type": "credential_stuffing",
+    "severity": "low",
+    "details": {
+      "endpoint": "/api/data",
+      "payload": "' OR 1=1; --",
+      "database": "oracle",
+      "success": true
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:05:06.626529",
+    "server": "dns-server-nepal",
+    "source_ip": "27.34.251.67",
+    "attack_type": "xss",
+    "severity": "medium",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

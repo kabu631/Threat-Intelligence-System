@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:53:43.957199",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "111.119.54.179",
+    "attack_type": "credential_stuffing",
+    "severity": "medium",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

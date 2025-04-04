@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:08:06.725462",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.28.87.84",
+    "attack_type": "data_exfiltration",
+    "severity": "critical",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:38:05.556395",
+    "server": "web-server-ktm",
+    "source_ip": "27.34.19.232",
+    "attack_type": "ransomware",
+    "severity": "high",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

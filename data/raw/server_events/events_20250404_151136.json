@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:11:36.811789",
+    "server": "file-server-dharan",
+    "source_ip": "111.119.40.110",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

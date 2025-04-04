@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:52:41.023507",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.69.125.60",
+    "attack_type": "brute_force",
+    "severity": "medium",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

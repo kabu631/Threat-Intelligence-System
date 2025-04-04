@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:27:28.715484",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.69.127.228",
+    "attack_type": "ddos",
+    "severity": "high",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:52:30.347688",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.10.28.102",
+    "attack_type": "ddos",
+    "severity": "medium",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

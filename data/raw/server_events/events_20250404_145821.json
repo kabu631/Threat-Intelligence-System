@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:58:21.127530",
+    "server": "dns-server-nepal",
+    "source_ip": "103.1.95.67",
+    "attack_type": "sql_injection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

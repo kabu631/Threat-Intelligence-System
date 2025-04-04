@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:21:38.753658",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.10.28.133",
+    "attack_type": "ransomware",
+    "severity": "critical",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

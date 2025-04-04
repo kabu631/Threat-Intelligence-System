@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:41:09.185634",
+    "server": "auth-server-birgunj",
+    "source_ip": "27.35.106.65",
+    "attack_type": "port_scan",
+    "severity": "low",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

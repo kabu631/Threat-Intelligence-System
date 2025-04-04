@@ -1,0 +1,1162 @@
+[
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2020-5400"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A buffer overflow vulnerability in Example Software allows attackers to crash the application or execute arbitrary code. This affects versions prior to 5.8."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2020-5400"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5400"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-61"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-31T12:31:17.447883",
+    "lastModifiedDate": "2025-04-01T12:31:17.447899",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.8,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.0,
+        "impactScore": 2.1,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 8.010355029997323,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2025-7632"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.1."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2025-7632"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-7632"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-292"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-03T12:31:17.448003",
+    "lastModifiedDate": "2025-04-02T12:31:17.448016",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.4,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.2,
+        "impactScore": 4.5,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.158175846706248,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2023-9643"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A memory corruption vulnerability in Example Software allows attackers to manipulate program memory and potentially execute arbitrary code. This affects versions prior to 5.8."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2023-9643"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-9643"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-252"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-01T12:31:17.448058",
+    "lastModifiedDate": "2025-04-04T12:31:17.448067",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.5,
+        "impactScore": 5.2,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.241430056841913,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2025-8717"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A memory corruption vulnerability in Example Software allows attackers to manipulate program memory and potentially execute arbitrary code. This affects versions prior to 5.7."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2025-8717"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8717"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-109"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-28T12:31:17.448095",
+    "lastModifiedDate": "2025-04-02T12:31:17.448100",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.7,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.5,
+        "impactScore": 4.2,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.986696793453726,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2021-3149"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.0."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2021-3149"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3149"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-78"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-03T12:31:17.448123",
+    "lastModifiedDate": "2025-04-04T12:31:17.448128",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.9,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.6,
+        "impactScore": 4.4,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.930285362395465,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2020-3391"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A buffer overflow vulnerability in Example Software allows attackers to crash the application or execute arbitrary code. This affects versions prior to 5.2."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2020-3391"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-3391"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-207"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-29T12:31:17.448157",
+    "lastModifiedDate": "2025-04-01T12:31:17.448163",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.6,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.4,
+        "impactScore": 2.7,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.657300677357054,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2023-3639"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.1."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2023-3639"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3639"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-184"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-03T12:31:17.448184",
+    "lastModifiedDate": "2025-04-04T12:31:17.448193",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.1,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.3,
+        "impactScore": 3.5,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.656527353745768,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2022-6216"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.6."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2022-6216"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-6216"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-129"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-30T12:31:17.448212",
+    "lastModifiedDate": "2025-04-01T12:31:17.448217",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.7,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.3,
+        "impactScore": 5.1,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 8.134704211284317,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2020-6108"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A denial of service vulnerability in Example Software allows attackers to cause the service to become unavailable to legitimate users. This affects versions prior to 5.3."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2020-6108"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6108"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-222"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-30T12:31:17.448298",
+    "lastModifiedDate": "2025-04-01T12:31:17.448312",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 5.7,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.2,
+        "impactScore": 5.4,
+        "severity": "MEDIUM"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 4.737353506188696,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "MEDIUM"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2023-6965"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.2."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2023-6965"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6965"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-31"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-30T12:31:17.448350",
+    "lastModifiedDate": "2025-04-04T12:31:17.448356",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.2,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.1,
+        "impactScore": 4.3,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.922857274628393,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2024-7005"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A authentication bypass vulnerability in Example Software allows attackers to gain unauthorized access to restricted functionality. This affects versions prior to 5.9."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2024-7005"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-7005"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-223"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-01T12:31:17.448381",
+    "lastModifiedDate": "2025-04-04T12:31:17.448386",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.9,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.7,
+        "impactScore": 5.3,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 8.026255219008632,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2024-6398"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A cross-site scripting (xss) vulnerability in Example Software allows attackers to execute arbitrary JavaScript in users' browsers and potentially steal session cookies. This affects versions prior to 5.9."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2024-6398"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6398"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-290"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-02T12:31:17.448414",
+    "lastModifiedDate": "2025-04-01T12:31:17.448419",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 6.8,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.0,
+        "impactScore": 2.6,
+        "severity": "MEDIUM"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.547541954710001,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "MEDIUM"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2024-3628"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A authentication bypass vulnerability in Example Software allows attackers to gain unauthorized access to restricted functionality. This affects versions prior to 5.5."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2024-3628"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3628"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-213"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-30T12:31:17.448440",
+    "lastModifiedDate": "2025-04-01T12:31:17.448445",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.5,
+        "impactScore": 5.7,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.612733089876777,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2020-9735"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A information disclosure vulnerability in Example Software allows attackers to access sensitive information that should be protected. This affects versions prior to 5.2."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2020-9735"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9735"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-129"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-29T12:31:17.448471",
+    "lastModifiedDate": "2025-04-01T12:31:17.448476",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 6.7,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.7,
+        "impactScore": 2.8,
+        "severity": "MEDIUM"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.377412401102035,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "MEDIUM"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2023-6592"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A buffer overflow vulnerability in Example Software allows attackers to crash the application or execute arbitrary code. This affects versions prior to 5.9."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2023-6592"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6592"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-227"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-02T12:31:17.448525",
+    "lastModifiedDate": "2025-04-03T12:31:17.448540",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.6,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.0,
+        "impactScore": 2.2,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.814226759431993,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2021-2361"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A buffer overflow vulnerability in Example Software allows attackers to crash the application or execute arbitrary code. This affects versions prior to 5.4."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2021-2361"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2361"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-20"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-02T12:31:17.448596",
+    "lastModifiedDate": "2025-04-04T12:31:17.448605",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.9,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.4,
+        "impactScore": 3.7,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.516764810439269,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2025-5270"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A sql injection vulnerability in Example Software allows attackers to extract sensitive data from databases or modify database content. This affects versions prior to 5.3."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2025-5270"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5270"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-48"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-31T12:31:17.448631",
+    "lastModifiedDate": "2025-04-02T12:31:17.448636",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.2,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.8,
+        "impactScore": 2.4,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.609914260468918,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2020-1228"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A privilege escalation vulnerability in Example Software allows attackers to gain elevated access to resources that should be protected. This affects versions prior to 5.9."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2020-1228"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1228"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-65"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-31T12:31:17.448718",
+    "lastModifiedDate": "2025-04-02T12:31:17.448752",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.0,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.6,
+        "impactScore": 4.7,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.043394782510336,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2021-8093"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A memory corruption vulnerability in Example Software allows attackers to manipulate program memory and potentially execute arbitrary code. This affects versions prior to 5.5."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2021-8093"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-8093"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-53"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-03-29T12:31:17.448797",
+    "lastModifiedDate": "2025-04-04T12:31:17.448806",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 8.8,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 3.1,
+        "impactScore": 5.0,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 7.804749133619628,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  },
+  {
+    "cve": {
+      "CVE_data_meta": {
+        "ID": "CVE-2022-1972"
+      },
+      "description": {
+        "description_data": [
+          {
+            "lang": "en",
+            "value": "A memory corruption vulnerability in Example Software allows attackers to manipulate program memory and potentially execute arbitrary code. This affects versions prior to 5.5."
+          }
+        ]
+      },
+      "references": {
+        "reference_data": [
+          {
+            "url": "https://example.com/advisories/cve-2022-1972"
+          },
+          {
+            "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1972"
+          }
+        ]
+      },
+      "problemtype": {
+        "problemtype_data": [
+          {
+            "description": [
+              {
+                "value": "CWE-226"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "publishedDate": "2025-04-02T12:31:17.448839",
+    "lastModifiedDate": "2025-04-01T12:31:17.448847",
+    "impact": {
+      "baseMetricV3": {
+        "cvssV3": {
+          "baseScore": 7.1,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "attackVector": "NETWORK",
+          "attackComplexity": "LOW"
+        },
+        "exploitabilityScore": 2.7,
+        "impactScore": 4.2,
+        "severity": "HIGH"
+      },
+      "baseMetricV2": {
+        "cvssV2": {
+          "baseScore": 6.688225871920333,
+          "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "severity": "HIGH"
+      }
+    }
+  }
+]

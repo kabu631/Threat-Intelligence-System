@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:44:35.684763",
+    "server": "api-server-nepalganj",
+    "source_ip": "110.44.124.215",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

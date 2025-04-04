@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:41:59.212782",
+    "server": "db-server-biratnagar",
+    "source_ip": "110.44.116.255",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "endpoint": "/search",
+      "payload": "' OR 1=1; --",
+      "database": "oracle",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

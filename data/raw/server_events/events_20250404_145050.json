@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:50:50.992031",
+    "server": "web-server-ktm",
+    "source_ip": "110.44.119.61",
+    "attack_type": "brute_force",
+    "severity": "critical",
+    "details": {
+      "endpoint": "/login",
+      "payload": "' OR 1=1; --",
+      "database": "oracle",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

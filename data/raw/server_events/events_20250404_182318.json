@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:23:18.538696",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.10.29.4",
+    "attack_type": "malware_infection",
+    "severity": "high",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

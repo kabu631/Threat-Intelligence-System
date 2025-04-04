@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:00:01.161939",
+    "server": "mail-server-pokhara",
+    "source_ip": "110.44.125.44",
+    "attack_type": "malware_infection",
+    "severity": "high",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:44:25.442667",
+    "server": "dns-server-nepal",
+    "source_ip": "27.34.75.96",
+    "attack_type": "data_exfiltration",
+    "severity": "high",
+    "details": {
+      "method": "RDP",
+      "attempts": 59,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 143
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

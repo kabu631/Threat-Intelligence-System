@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:38:26.577107",
+    "server": "dns-server-nepal",
+    "source_ip": "103.69.124.190",
+    "attack_type": "ransomware",
+    "severity": "high",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

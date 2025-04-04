@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:57:51.120701",
+    "server": "mail-server-pokhara",
+    "source_ip": "27.116.65.194",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 5.28,
+      "packet_count": 9173500,
+      "duration_minutes": 5
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

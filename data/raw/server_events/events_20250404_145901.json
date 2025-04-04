@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:59:01.147884",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "111.119.51.137",
+    "attack_type": "credential_stuffing",
+    "severity": "low",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

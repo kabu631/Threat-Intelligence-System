@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:05:56.646565",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.69.126.135",
+    "attack_type": "brute_force",
+    "severity": "low",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 4.66,
+      "packet_count": 4204381,
+      "duration_minutes": 12
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

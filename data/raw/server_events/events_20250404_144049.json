@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:40:49.169334",
+    "server": "file-server-dharan",
+    "source_ip": "110.44.113.73",
+    "attack_type": "malware_infection",
+    "severity": "low",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

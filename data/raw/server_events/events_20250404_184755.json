@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:47:55.840754",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.28.86.203",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:31:08.828330",
+    "server": "auth-server-birgunj",
+    "source_ip": "27.34.244.156",
+    "attack_type": "sql_injection",
+    "severity": "medium",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

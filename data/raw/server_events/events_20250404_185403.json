@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:54:03.986667",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "110.44.124.212",
+    "attack_type": "ddos",
+    "severity": "high",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

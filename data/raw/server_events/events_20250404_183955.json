@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:39:55.588599",
+    "server": "web-server-ktm",
+    "source_ip": "27.34.183.130",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

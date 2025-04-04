@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:43:35.662842",
+    "server": "file-server-dharan",
+    "source_ip": "202.166.208.75",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "endpoint": "/login",
+      "payload": "' OR 1=1; --",
+      "database": "mysql",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

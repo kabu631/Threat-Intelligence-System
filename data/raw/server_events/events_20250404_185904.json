@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:59:04.101646",
+    "server": "file-server-dharan",
+    "source_ip": "27.35.239.3",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

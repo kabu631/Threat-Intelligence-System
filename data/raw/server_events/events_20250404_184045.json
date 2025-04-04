@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:40:45.603225",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "110.44.127.117",
+    "attack_type": "credential_stuffing",
+    "severity": "critical",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

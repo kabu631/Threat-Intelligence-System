@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:41:25.618483",
+    "server": "file-server-dharan",
+    "source_ip": "202.166.193.207",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

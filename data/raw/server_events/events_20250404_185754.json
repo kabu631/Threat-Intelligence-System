@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:57:54.058204",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.1.94.146",
+    "attack_type": "data_exfiltration",
+    "severity": "critical",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

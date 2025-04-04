@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:20:58.711616",
+    "server": "dns-server-nepal",
+    "source_ip": "103.28.87.207",
+    "attack_type": "credential_stuffing",
+    "severity": "high",
+    "details": {
+      "method": "SSH",
+      "attempts": 76,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 164
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

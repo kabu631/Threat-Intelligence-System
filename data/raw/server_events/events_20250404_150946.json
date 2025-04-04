@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:09:46.775314",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "110.44.117.66",
+    "attack_type": "ransomware",
+    "severity": "low",
+    "details": {
+      "endpoint": "/login",
+      "payload": "' OR 1=1; --",
+      "database": "mysql",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

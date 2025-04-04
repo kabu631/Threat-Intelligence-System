@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:26:38.679794",
+    "server": "dns-server-nepal",
+    "source_ip": "103.1.94.231",
+    "attack_type": "port_scan",
+    "severity": "medium",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 1.14,
+      "packet_count": 7973289,
+      "duration_minutes": 9
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

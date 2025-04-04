@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:57:21.110684",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.10.30.158",
+    "attack_type": "ddos",
+    "severity": "critical",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

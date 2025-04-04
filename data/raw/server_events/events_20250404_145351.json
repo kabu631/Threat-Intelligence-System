@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:53:51.042053",
+    "server": "auth-server-birgunj",
+    "source_ip": "202.63.247.158",
+    "attack_type": "credential_stuffing",
+    "severity": "medium",
+    "details": {
+      "method": "TCP SYN flood",
+      "traffic_gbps": 1.25,
+      "packet_count": 6458425,
+      "duration_minutes": 54
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:24:18.555037",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.1.93.222",
+    "attack_type": "malware_infection",
+    "severity": "low",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

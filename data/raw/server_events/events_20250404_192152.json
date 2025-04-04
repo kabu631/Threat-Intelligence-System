@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T19:21:52.392338",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.69.124.78",
+    "attack_type": "malware_infection",
+    "severity": "high",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:43:25.661551",
+    "server": "api-server-nepalganj",
+    "source_ip": "202.166.197.211",
+    "attack_type": "ransomware",
+    "severity": "medium",
+    "details": {
+      "method": "TCP SYN flood",
+      "traffic_gbps": 4.98,
+      "packet_count": 655384,
+      "duration_minutes": 19
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

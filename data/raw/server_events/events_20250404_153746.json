@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:37:46.913324",
+    "server": "web-server-ktm",
+    "source_ip": "103.10.31.140",
+    "attack_type": "brute_force",
+    "severity": "low",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

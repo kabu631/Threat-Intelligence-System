@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:54:23.998207",
+    "server": "db-server-biratnagar",
+    "source_ip": "103.28.86.111",
+    "attack_type": "ransomware",
+    "severity": "critical",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

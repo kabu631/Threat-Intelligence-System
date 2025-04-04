@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T14:54:21.049636",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "27.117.135.142",
+    "attack_type": "sql_injection",
+    "severity": "critical",
+    "details": {
+      "method": "SSH",
+      "attempts": 24,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 216
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

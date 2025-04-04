@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:40:09.153819",
+    "server": "web-server-ktm",
+    "source_ip": "103.10.29.211",
+    "attack_type": "credential_stuffing",
+    "severity": "critical",
+    "details": {
+      "endpoint": "/api/data",
+      "payload": "' OR 1=1; --",
+      "database": "oracle",
+      "success": false
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

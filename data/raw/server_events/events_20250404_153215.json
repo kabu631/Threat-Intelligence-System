@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T15:32:15.760699",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.10.29.163",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 5.15,
+      "packet_count": 6014860,
+      "duration_minutes": 60
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

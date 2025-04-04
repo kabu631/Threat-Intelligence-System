@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T14:58:11.125230",
+    "server": "file-server-dharan",
+    "source_ip": "103.1.93.46",
+    "attack_type": "port_scan",
+    "severity": "low",
+    "details": {
+      "method": "SSH",
+      "attempts": 71,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 227
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

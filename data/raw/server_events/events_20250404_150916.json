@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:09:16.763588",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "27.116.21.147",
+    "attack_type": "unauthorized_access",
+    "severity": "medium",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

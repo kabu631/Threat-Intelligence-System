@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:50:30.297145",
+    "server": "web-server-ktm",
+    "source_ip": "27.116.110.75",
+    "attack_type": "port_scan",
+    "severity": "critical",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

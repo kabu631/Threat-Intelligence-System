@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T15:07:06.668844",
+    "server": "file-server-dharan",
+    "source_ip": "110.44.118.19",
+    "attack_type": "port_scan",
+    "severity": "medium",
+    "details": {
+      "method": "RDP",
+      "attempts": 90,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 82
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

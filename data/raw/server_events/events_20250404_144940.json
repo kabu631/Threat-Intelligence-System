@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:49:40.959394",
+    "server": "file-server-dharan",
+    "source_ip": "103.10.30.68",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

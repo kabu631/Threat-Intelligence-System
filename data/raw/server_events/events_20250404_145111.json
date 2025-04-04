@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:51:11.000353",
+    "server": "web-server-ktm",
+    "source_ip": "110.44.117.51",
+    "attack_type": "unauthorized_access",
+    "severity": "medium",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 1.18,
+      "packet_count": 565205,
+      "duration_minutes": 19
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

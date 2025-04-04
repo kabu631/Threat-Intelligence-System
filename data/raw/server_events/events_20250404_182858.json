@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:28:58.752632",
+    "server": "mail-server-pokhara",
+    "source_ip": "110.44.123.207",
+    "attack_type": "data_exfiltration",
+    "severity": "medium",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

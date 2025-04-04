@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T14:52:01.010685",
+    "server": "web-server-ktm",
+    "source_ip": "103.1.92.67",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "method": "SSH",
+      "attempts": 65,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 126
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T14:48:20.761523",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.92.145",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential port scan attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

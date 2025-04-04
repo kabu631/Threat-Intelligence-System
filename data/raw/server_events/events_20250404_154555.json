@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:45:55.503109",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.1.95.52",
+    "attack_type": "port_scan",
+    "severity": "medium",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

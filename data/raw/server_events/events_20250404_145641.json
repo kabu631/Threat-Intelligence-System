@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T14:56:41.098869",
+    "server": "api-server-nepalganj",
+    "source_ip": "27.117.239.186",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "endpoint": "/login",
+      "payload": "' OR 1=1; --",
+      "database": "mysql",
+      "success": true
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

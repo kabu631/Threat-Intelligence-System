@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T19:22:12.413299",
+    "server": "api-server-nepalganj",
+    "source_ip": "111.119.41.73",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

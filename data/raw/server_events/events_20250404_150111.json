@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:01:11.189571",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "202.166.197.243",
+    "attack_type": "port_scan",
+    "severity": "critical",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

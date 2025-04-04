@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2025-04-04T14:48:10.760935",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.28.87.73",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "method": "SSH",
+      "attempts": 98,
+      "usernames": [
+        "admin",
+        "root",
+        "user",
+        "nepal"
+      ],
+      "duration_seconds": 298
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

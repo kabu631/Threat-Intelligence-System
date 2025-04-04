@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:27:08.704949",
+    "server": "mail-server-pokhara",
+    "source_ip": "27.34.226.92",
+    "attack_type": "sql_injection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

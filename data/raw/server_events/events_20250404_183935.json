@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:39:35.581355",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.69.126.29",
+    "attack_type": "malware_infection",
+    "severity": "low",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

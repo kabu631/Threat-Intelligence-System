@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:45:25.485167",
+    "server": "api-server-nepalganj",
+    "source_ip": "103.10.28.125",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential xss attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:22:18.781616",
+    "server": "proxy-server-bhaktapur",
+    "source_ip": "103.28.84.219",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

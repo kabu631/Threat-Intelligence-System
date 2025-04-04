@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:46:35.541871",
+    "server": "file-server-dharan",
+    "source_ip": "111.119.35.99",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

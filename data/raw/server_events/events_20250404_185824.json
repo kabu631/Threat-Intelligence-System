@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:58:24.090271",
+    "server": "mail-server-pokhara",
+    "source_ip": "27.35.16.249",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

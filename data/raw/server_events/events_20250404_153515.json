@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T15:35:15.808615",
+    "server": "auth-server-birgunj",
+    "source_ip": "110.44.123.183",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "web app",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

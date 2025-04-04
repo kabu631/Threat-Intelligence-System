@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:56:04.019156",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.28.85.14",
+    "attack_type": "sql_injection",
+    "severity": "low",
+    "details": {
+      "description": "Potential ransomware attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]

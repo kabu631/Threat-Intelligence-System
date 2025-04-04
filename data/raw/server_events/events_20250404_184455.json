@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:44:55.693237",
+    "server": "web-server-ktm",
+    "source_ip": "103.10.31.205",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "method": "HTTP flood",
+      "traffic_gbps": 2.96,
+      "packet_count": 5410225,
+      "duration_minutes": 39
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Bhaktapur"
+    }
+  }
+]

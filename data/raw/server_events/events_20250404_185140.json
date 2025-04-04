@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:51:40.328350",
+    "server": "auth-server-birgunj",
+    "source_ip": "202.63.249.184",
+    "attack_type": "ransomware",
+    "severity": "critical",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Dharan"
+    }
+  }
+]

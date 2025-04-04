@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T16:17:50.376029",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.28.85.165",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

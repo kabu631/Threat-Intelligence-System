@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:48:05.847187",
+    "server": "dns-server-nepal",
+    "source_ip": "27.116.143.122",
+    "attack_type": "brute_force",
+    "severity": "low",
+    "details": {
+      "description": "Potential data exfiltration attack detected",
+      "target": "database",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:30:28.803373",
+    "server": "mail-server-pokhara",
+    "source_ip": "103.1.94.0",
+    "attack_type": "malware_infection",
+    "severity": "critical",
+    "details": {
+      "description": "Potential malware infection attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

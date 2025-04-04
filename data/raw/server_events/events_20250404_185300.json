@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:53:00.354408",
+    "server": "api-server-nepalganj",
+    "source_ip": "110.44.112.59",
+    "attack_type": "brute_force",
+    "severity": "critical",
+    "details": {
+      "description": "Potential credential stuffing attack detected",
+      "target": "api",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

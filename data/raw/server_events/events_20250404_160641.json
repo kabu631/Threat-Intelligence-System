@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T16:06:41.936400",
+    "server": "auth-server-birgunj",
+    "source_ip": "202.166.218.242",
+    "attack_type": "xss",
+    "severity": "high",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 9.27,
+      "packet_count": 7203671,
+      "duration_minutes": 52
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Biratnagar"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:39:15.568914",
+    "server": "dns-server-nepal",
+    "source_ip": "202.166.194.161",
+    "attack_type": "unauthorized_access",
+    "severity": "critical",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Pokhara"
+    }
+  }
+]

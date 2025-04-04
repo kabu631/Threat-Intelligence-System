@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-04-04T18:47:35.831859",
+    "server": "api-server-nepalganj",
+    "source_ip": "202.166.211.100",
+    "attack_type": "data_exfiltration",
+    "severity": "low",
+    "details": {
+      "method": "UDP flood",
+      "traffic_gbps": 2.69,
+      "packet_count": 3579817,
+      "duration_minutes": 45
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Kathmandu"
+    }
+  }
+]

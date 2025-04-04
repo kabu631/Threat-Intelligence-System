@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2025-04-04T18:46:55.814427",
+    "server": "auth-server-birgunj",
+    "source_ip": "103.28.86.6",
+    "attack_type": "ddos",
+    "severity": "low",
+    "details": {
+      "description": "Potential unauthorized access attack detected",
+      "target": "admin panel",
+      "indicators": [
+        "suspicious traffic",
+        "unusual access patterns"
+      ]
+    },
+    "location": {
+      "country": "Nepal",
+      "city": "Birgunj"
+    }
+  }
+]
