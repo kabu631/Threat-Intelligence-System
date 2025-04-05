@@ -2,13 +2,11 @@
 
 A comprehensive web-based dashboard for monitoring, analyzing, and responding to cybersecurity threats in real-time.
 
-![Threat Intelligence Dashboard](static/images/dashboard-preview.png)
-
-## 🌟 Overview
+## Overview
 
 The Threat Intelligence Dashboard is an interactive platform designed for security professionals to monitor global and local threats, analyze attack patterns, and access tools for threat intelligence analysis. The dashboard combines real-time data with comprehensive visualization tools to provide actionable insights for cybersecurity teams.
 
-## ✨ Key Features
+## Key Features
 
 - **🔍 Real-time Threat Monitoring**: Track and visualize security incidents as they occur
 - **📊 Interactive Visualizations**: Analyze threat data through dynamic charts and graphs 
@@ -19,27 +17,14 @@ The Threat Intelligence Dashboard is an interactive platform designed for securi
 - **🌓 Dark/Light Modes**: Toggle between themes for different working environments
 - **🔔 Smart Notifications**: Receive context-aware alerts about critical security events
 
-## 📱 Screenshots
+## Screenshots
 
-<details>
-<summary>Click to view screenshots</summary>
+(Screenshots section has been removed as per the request to exclude graphic elements.)
 
-### Dashboard Overview
-![Dashboard Overview](static/images/dashboard-overview.png)
-
-### Analysis Tools
-![Analysis Tools](static/images/analysis-tools.png)
-
-### Nepal Monitor
-![Nepal Monitor](static/images/nepal-monitor.png)
-
-### Settings Panel
-![Settings Panel](static/images/settings-panel.png)
-</details>
-
-## 📚 Dashboard Sections
+## Dashboard Sections
 
 ### Main Dashboard
+
 The main dashboard provides a global overview of threat intelligence, featuring:
 
 - **Threat Distribution Chart**: Breakdown of different threat types
@@ -51,6 +36,7 @@ The main dashboard provides a global overview of threat intelligence, featuring:
 - **Identified Entities**: Automatically extracted entities from threat reports
 
 ### Analysis Tools
+
 Interactive tools for threat intelligence analysis:
 
 - **[IOC Extractor](https://github.com/kabu631/Threat-Intelligence_System/blob/main/src/processors/ioc_extractor.py)**: Extract Indicators of Compromise from text
@@ -59,24 +45,26 @@ Interactive tools for threat intelligence analysis:
 - **[CVE Search](https://github.com/kabu631/Threat-Intelligence_System/blob/main/src/collectors/cve_collector.py)**: Search and filter the CVE database
 
 ### Nepal Monitor
+
 Specialized section focused on Nepal's cybersecurity landscape:
 
-- **Nepal Threat Overview**: Visualizations specific to Nepal's threat landscape
-- **Latest Events**: Real-time monitoring of security incidents
-- **Event Details**: In-depth information about specific security events
-- **Top Targeted Servers**: Ranking of most frequently targeted systems
+- **Nepal Threat Overview**: Visualizations specific to Nepal's threat landscape  
+- **Latest Events**: Real-time monitoring of security incidents  
+- **Event Details**: In-depth information about specific security events  
+- **Top Targeted Servers**: Ranking of most frequently targeted systems  
 - **Top Attack Sources**: Analysis of primary attack origins
 
 ### Settings
+
 Configurable options for dashboard customization:
 
-- **Auto-refresh Interval**: Control data refresh frequency
-- **Dark Mode**: Toggle between light and dark themes
-- **Real-time Notifications**: Enable/disable security alerts
-- **API Configuration**: Configure connection to backend services
+- **Auto-refresh Interval**: Control data refresh frequency  
+- **Dark Mode**: Toggle between light and dark themes  
+- **Real-time Notifications**: Enable/disable security alerts  
+- **API Configuration**: Configure connection to backend services  
 - **Connection Status**: Monitor services connectivity
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -115,12 +103,14 @@ python start_system.py
 #### Method 2: Starting Components Manually
 
 Start the API server:
+
 ```bash
 cd src
 python api_server.py
 ```
 
 Start the static file server:
+
 ```bash
 cd static
 python -m http.server 8080
@@ -129,44 +119,47 @@ python -m http.server 8080
 ### Access the Dashboard
 
 Open your browser and navigate to:
+
 ```
 http://localhost:8080
 ```
 
-## 📖 Usage
+## Usage
 
 ### Navigation
 
 Use the navigation menu at the top of the page to switch between different sections:
-- **Dashboard**: Global threat overview and intelligence summaries
-- **Analysis Tools**: Interactive tools for threat intelligence analysis
-- **Nepal Monitor**: Nepal-specific threat monitoring
+
+- **Dashboard**: Global threat overview and intelligence summaries  
+- **Analysis Tools**: Interactive tools for threat intelligence analysis  
+- **Nepal Monitor**: Nepal-specific threat monitoring  
 - **Settings**: Dashboard configuration options
 
 ### Dashboard Interaction
 
-- **Charts**: Hover over chart elements to see detailed information
-- **Tables**: Click on table rows to see detailed information about entries
-- **Search & Filter**: Use search boxes and filters to find specific information
+- **Charts**: Hover over chart elements to see detailed information  
+- **Tables**: Click on table rows to see detailed information about entries  
+- **Search & Filter**: Use search boxes and filters to find specific information  
 - **Tools**: Enter text into analysis tool sections to process threat intelligence data
 
 ### Customization
 
 Access the settings page to customize:
-- Set auto-refresh intervals for data
-- Toggle between light and dark mode
-- Enable or disable real-time notifications
+
+- Set auto-refresh intervals for data  
+- Toggle between light and dark mode  
+- Enable or disable real-time notifications  
 - Configure API connections
 
-## ⚙️ Configuration
+## Configuration
 
 ### API Configuration
 
 The dashboard connects to a backend API for data. Configure the connection in the Settings page:
 
-1. Navigate to the Settings page
-2. Update the "API Base URL" field with your API server address
-3. Update the "WebSocket URL" field for real-time data
+1. Navigate to the Settings page  
+2. Update the "API Base URL" field with your API server address  
+3. Update the "WebSocket URL" field for real-time data  
 4. Click "Test Connection" to verify
 
 ### Environment Variables
@@ -180,23 +173,23 @@ DEBUG=True
 API_KEY=your_api_key_here
 ```
 
-## 🌐 API Documentation
+## API Documentation
 
 The backend API supports the following endpoints:
 
-- `/health`: API health check
-- `/global/summary`: Get global threat summary
-- `/global/events`: Get global threat events
-- `/nepal/summary`: Get Nepal-specific threat summary
-- `/nepal/events`: Get Nepal-specific threat events
-- `/tools/extract-ioc`: Extract IOCs from text
-- `/tools/topic-model`: Perform topic modeling on text
-- `/tools/extract-entities`: Extract entities from text
-- `/cve/search`: Search the CVE database
+- `/health`: API health check  
+- `/global/summary`: Get global threat summary  
+- `/global/events`: Get global threat events  
+- `/nepal/summary`: Get Nepal-specific threat summary  
+- `/nepal/events`: Get Nepal-specific threat events  
+- `/tools/extract-ioc`: Extract IOCs from text  
+- `/tools/topic-model`: Perform topic modeling on text  
+- `/tools/extract-entities`: Extract entities from text  
+- `/cve/search`: Search the CVE database  
 
 For full API documentation, see the [`API.md`](https://github.com/kabu631/Threat-Intelligence_System/blob/main/API.md) file.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a [Pull Request](https://github.com/kabu631/Threat-Intelligence_System/pulls).
 
@@ -206,22 +199,22 @@ Contributions are welcome! Please feel free to submit a [Pull Request](https://g
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📋 Roadmap
+## Roadmap
 
-- [ ] Add user authentication system
-- [ ] Implement threat correlation engine
-- [ ] Add reporting and export capabilities
-- [ ] Create mobile app version
-- [ ] Add support for more data sources
+- [ ] Add user authentication system  
+- [ ] Implement threat correlation engine  
+- [ ] Add reporting and export capabilities  
+- [ ] Create mobile app version  
+- [ ] Add support for more data sources  
 - [ ] Implement machine learning for anomaly detection
 
-## 📝 License
+## License
 
-This project is licensed under the [MIT License](https://github.com/kabu631/Threat-Intelligence_System/blob/main/LICENSE) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://github.com/kabu631/Threat-Intelligence_System/blob/main/LICENSE) - see the LICENSE file for details.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Chart.js](https://www.chartjs.org/) for data visualization
 - [MITRE ATT&CK](https://attack.mitre.org/) for threat intelligence framework
 - [NVD](https://nvd.nist.gov/) for vulnerability data
-- [Leaflet](https://leafletjs.com/) for interactive maps 
+- [Leaflet](https://leafletjs.com/) for interactive maps
