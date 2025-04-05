@@ -8,17 +8,17 @@ OVERVIEW
 
 The Threat Intelligence Dashboard is an interactive platform designed for security professionals to monitor global and local threats, analyze attack patterns, and access tools for threat intelligence analysis. The dashboard combines real-time data with comprehensive visualization tools to provide actionable insights for cybersecurity teams.
 
-FEATURES
---------
+KEY FEATURES
+-----------
 
-- Real-time Threat Monitoring: Track and visualize global and local security incidents as they occur
-- Interactive Visualizations: Analyze threat data through comprehensive charts and graphs 
-- CVE Database Integration: Access and search the latest Common Vulnerabilities and Exposures
-- Threat Analysis Tools: Extract IOCs, perform topic modeling, and identify entities in security reports
-- Nepal-focused Monitoring: Dedicated section for monitoring threats specific to Nepal's infrastructure
-- Configurable Settings: Customize dashboard appearance and behavior through the settings panel
-- Dark Mode Support: Toggle between light and dark themes for different working environments
-- Real-time Notifications: Receive alerts about critical security events as they happen
+- Real-time Threat Monitoring: Track and visualize security incidents as they occur
+- Interactive Visualizations: Analyze threat data through dynamic charts and graphs 
+- CVE Database Integration: Search and filter the latest vulnerabilities and exposures
+- Advanced Analysis Tools: Extract IOCs, perform topic modeling, and identify entities
+- Global & Local Monitoring: View both worldwide threats and Nepal-specific security incidents
+- Customizable Settings: Personalize dashboard appearance and behavior
+- Dark/Light Modes: Toggle between themes for different working environments
+- Smart Notifications: Receive context-aware alerts about critical security events
 
 DASHBOARD SECTIONS
 -----------------
@@ -65,8 +65,8 @@ Prerequisites:
 - pip (Python package installer)
 
 Clone the Repository:
-git clone https://github.com/yourusername/threat-intelligence-dashboard.git
-cd threat-intelligence-dashboard
+git clone https://github.com/kabu631/Threat-Intelligence_System.git
+cd Threat-Intelligence_System
 
 Set Up Python Virtual Environment:
 python -m venv venv
@@ -161,7 +161,25 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (git push origin feature/amazing-feature)
 5. Open a Pull Request
 
+ROADMAP
+------
+
+- Add user authentication system
+- Implement threat correlation engine
+- Add reporting and export capabilities
+- Create mobile app version
+- Add support for more data sources
+- Implement machine learning for anomaly detection
+
 LICENSE
 ------
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+ACKNOWLEDGEMENTS
+--------------
+
+- Chart.js (https://www.chartjs.org/) for data visualization
+- MITRE ATT&CK (https://attack.mitre.org/) for threat intelligence framework
+- NVD (https://nvd.nist.gov/) for vulnerability data
+- Leaflet (https://leafletjs.com/) for interactive maps 
