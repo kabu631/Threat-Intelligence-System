@@ -33,7 +33,7 @@ chmod +x start_system.py
 python start_system.py
 ```
 
-The dashboard will automatically open in your browser at http://localhost:8082
+The dashboard will automatically open in your browser at http://localhost:8080
 
 ## Quick Analysis Examples
 
