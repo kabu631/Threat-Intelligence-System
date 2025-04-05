@@ -12,7 +12,7 @@ The Threat Intelligence Dashboard is an interactive platform designed for securi
 
 - **🔍 Real-time Threat Monitoring**: Track and visualize security incidents as they occur
 - **📊 Interactive Visualizations**: Analyze threat data through dynamic charts and graphs 
-- **🛡️ CVE Database Integration**: Search and filter the latest vulnerabilities and exposures
+- **🛡️ [CVE Database](https://cve.mitre.org/) Integration**: Search and filter the latest vulnerabilities and exposures
 - **🧰 Advanced Analysis Tools**: Extract IOCs, perform topic modeling, and identify entities
 - **🌏 Global & Local Monitoring**: View both worldwide threats and Nepal-specific security incidents
 - **🔧 Customizable Settings**: Personalize dashboard appearance and behavior
@@ -46,17 +46,17 @@ The main dashboard provides a global overview of threat intelligence, featuring:
 - **Attack Types Chart**: Analysis of various attack methodologies
 - **Geographic Distribution**: Visual representation of threat origins
 - **Severity Breakdown**: Classification of threats by severity level
-- **Recent CVEs**: Latest vulnerabilities from the CVE database
+- **Recent CVEs**: Latest vulnerabilities from the [CVE database](https://cve.mitre.org/)
 - **Threat Topics**: AI-generated topic clusters from threat intelligence
 - **Identified Entities**: Automatically extracted entities from threat reports
 
 ### Analysis Tools
 Interactive tools for threat intelligence analysis:
 
-- **IOC Extractor**: Extract Indicators of Compromise from text
-- **Topic Modeling**: Analyze themes in threat intelligence reports
-- **Entity Recognition**: Identify and categorize entities in security documents
-- **CVE Search**: Search and filter the CVE database
+- **[IOC Extractor](https://github.com/kabu631/Threat-Intelligence_System/blob/main/src/processors/ioc_extractor.py)**: Extract Indicators of Compromise from text
+- **[Topic Modeling](https://github.com/kabu631/Threat-Intelligence_System/blob/main/src/models/topic_model.py)**: Analyze themes in threat intelligence reports
+- **[Entity Recognition](https://github.com/kabu631/Threat-Intelligence_System/blob/main/src/models/ner_model.py)**: Identify and categorize entities in security documents
+- **[CVE Search](https://github.com/kabu631/Threat-Intelligence_System/blob/main/src/collectors/cve_collector.py)**: Search and filter the CVE database
 
 ### Nepal Monitor
 Specialized section focused on Nepal's cybersecurity landscape:
@@ -80,8 +80,8 @@ Configurable options for dashboard customization:
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- Git
+- [Python 3.8](https://www.python.org/downloads/) or higher
+- [Git](https://git-scm.com/downloads)
 - pip (Python package installer)
 
 ### Clone the Repository
@@ -194,13 +194,13 @@ The backend API supports the following endpoints:
 - `/tools/extract-entities`: Extract entities from text
 - `/cve/search`: Search the CVE database
 
-For full API documentation, see [API.md](API.md).
+For full API documentation, see the [`API.md`](https://github.com/kabu631/Threat-Intelligence_System/blob/main/API.md) file.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a [Pull Request](https://github.com/kabu631/Threat-Intelligence_System/pulls).
 
-1. Fork the repository
+1. [Fork the repository](https://github.com/kabu631/Threat-Intelligence_System/fork)
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
@@ -217,7 +217,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://github.com/kabu631/Threat-Intelligence_System/blob/main/LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 
